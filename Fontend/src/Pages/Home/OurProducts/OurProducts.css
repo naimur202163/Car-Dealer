@@ -1,0 +1,47 @@
+
+.featured .featured-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.featured .featured-container .box {
+    padding: 4rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5rem;
+}
+
+.featured .featured-container .box img {
+    height: 20rem;
+    transition: all 0.3s linear;
+    padding: 1rem;
+}
+
+.featured .featured-container .box:hover img {
+    transform: scale(1.1);
+}
+
+.featured .featured-container .box .content h3 {
+    padding: 1rem 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.featured .featured-container .box .content p {
+    font-size: 1.8rem;
+    color: var(--light-color);
+    text-align: justify;
+}
+
+.featured .featured-container .box .content .stars {
+    padding: 1rem 0;
+}
+
+.featured .featured-container .box .content .price {
+    font-size: 2.5rem;
+    color: var(--black);
+}

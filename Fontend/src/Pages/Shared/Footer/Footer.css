@@ -1,0 +1,76 @@
+.footer{
+    background: var(--second-bg-color);
+    padding-bottom: 4rem;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 3rem;
+    padding:1rem 0;
+    font-weight: bold;
+    color:var(--black);
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.8rem;
+    padding:1rem 0;
+    color:var(--light-color);
+    text-decoration: none;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--black);
+    transition: all 0.3s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding:1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
+    border-top: var(--border);
+    font-size: 2rem;
+    color:var(--black);
+}
+.footer .credit span{
+    color:var(--main-bg-color);
+}
+.footer .box-container .box .email{
+    width: 100%;
+    margin:.7rem 0;
+    padding:1rem;
+    border-radius: .5rem;
+    background: #fff;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+.footer .box-container .box .payment-img{
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+}
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+.footer .box-container .box input{
+    border: none;
+}
+.footer .box-container .box input:focus{
+    outline:0px !important;
+}

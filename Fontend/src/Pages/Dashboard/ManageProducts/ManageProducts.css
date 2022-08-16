@@ -1,0 +1,10 @@
+/* .manage_products{
+    background: #fff;
+} */
+.manage_products .manage_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+}
+

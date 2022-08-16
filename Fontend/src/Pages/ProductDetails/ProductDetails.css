@@ -1,0 +1,76 @@
+
+
+
+
+.details .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 40rem;
+    flex: 1 1 40rem;
+}
+
+.details .content span {
+    color: var(--second-bg-color);
+    font-size: 2.5rem;
+}
+
+.details .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+    padding-top: .5rem;
+    font-weight: bold;
+}
+
+.details .content p {
+    color: var(--second-text-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.details .content .days,
+.details .content .price {
+    font-size: 2rem;
+}
+
+/* .details .content .days {
+    margin-right: 10rem;
+} */
+
+.order_form {
+    margin: 5rem 0;
+}
+
+.order_form form {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.order_form .form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.order_form input,textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--main-text-color);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+.order_form input:focus,
+.order_form textarea:focus{
+    outline: none;
+}
+
+.order_form button[type="Order"]{
+    font-size: 2.5rem;
+    color: var(--main-text-color);
+} 
+.order_form button[type="Order"]:hover,
+.order_form input[type="Order"]:hover {
+    background: var(--main-text-color);
+} 

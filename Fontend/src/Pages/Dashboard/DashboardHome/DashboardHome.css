@@ -1,0 +1,117 @@
+.sidebar-heading .logo img{
+    width:16rem;
+}
+.primary-text {
+    color: var(--main-text-color);
+}
+
+.second-text {
+    color: var(--second-text-color);
+}
+
+.primary-bg {
+    background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+    background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+#wrapper {
+    overflow-x: hidden;
+    background-image: linear-gradient(to right,
+            #baf3d7,
+            #c2f5de,
+            #cbf7e4,
+            #d4f8ea,
+            #ddfaef);
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: 0rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+}
+
+#wrapper #sidebar-wrapper .sidebar-heading {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2.5rem;
+    font-size: 2.5rem;
+}
+#wrapper #sidebar-wrapper .list-group a{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 25rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+    font-size: 2rem;
+    
+}
+
+#page-content-wrapper .navbar .dashboard h2,
+#page-content-wrapper .navbar .dashboard i{
+    font-size: 3rem ;
+    font-weight: bold;
+    cursor: pointer;
+}
+#page-content-wrapper .dash-heading h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+    transition: all 0.3s linear;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+.list-group-item {
+    border: none;
+    padding: 2rem 0rem;
+    margin:0 3rem;
+}
+
+.list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+}
+a.dropdown-item:hover {
+    background: none;
+    color: var(--main-bg-color);
+}
+@media (min-width: 450px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+/* Table================================================================ */
+
+

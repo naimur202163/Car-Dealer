@@ -1,0 +1,65 @@
+.container-fluid .navbar-brand img{
+    width: 12rem;
+  }
+.navbar-nav .nav-item a{
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+.user-name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.tb_btn {
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    background: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    border: .2rem solid var(--main-bg-color);
+    border-radius:.2rem;
+    position: relative;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1); */
+    color: var(--main-bg-color);
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+   }
+   .tb_btn a{
+       text-decoration: none;
+       color: var(--main-bg-color);
+   }
+   
+   .tb_btn:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: var(--main-bg-color);
+    z-index: -1;
+   }
+   
+   .tb_btn:hover , .tb_btn:focus {
+    color: white;
+   }
+   
+   .tb_btn:hover:before, .tb_btn:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+   }
+   
+   .tb_btn:active {
+    transform: scale(0.9);
+   }

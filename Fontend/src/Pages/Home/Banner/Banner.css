@@ -1,0 +1,27 @@
+.home_banner{
+    padding-top: 14rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.home_banner .banner_title h3{
+    color:var(--black);
+    font-weight: bold;
+    font-size: 7.5vw;
+    text-transform: uppercase;
+}
+.home_banner .banner_title h4{
+    font-size: 1.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+}
+
+.home_banner img{
+    width:100%;
+    margin:1rem 0;
+}
+.home_banner .btn{
+    
+}

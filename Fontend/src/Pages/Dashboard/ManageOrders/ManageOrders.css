@@ -1,0 +1,73 @@
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+.table .table_btn .btn,.table .table_btn .btn{
+    padding:.5rem 1rem;
+    font-size: 1.6rem;
+    
+}
+
+.table th{
+	background-color: var(--main-bg-color);
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+/*responsive*/
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		position: relative;
+	}
+	
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+}
+
+.manage_form select {
+    padding: .3rem;
+}
+.manage_form input[type="submit"] {
+    margin-left: .5rem;
+    background:none;
+    border: 1px solid var(--main-bg-color);
+    color: var(--main-bg-color);
+}
+.manage_form input[type="submit"]:hover {
+    background: var(--main-bg-color);
+    color: #fff;
+}

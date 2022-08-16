@@ -1,0 +1,67 @@
+.add_content_heading {
+    text-align: center;
+    border-bottom: .1rem solid var(--main-bg-color);
+    padding: 5rem;
+}
+
+.add_content_heading h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.add_content_heading p {
+    color: var(--black);
+    padding-top: .7rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.add_content_heading p a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.add_content_heading p span:hover {
+    color: var(--main-bg-color);
+}
+
+
+.add-form {
+    margin: 5rem 0;
+}
+
+.add-form form {
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.add-form .form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.add-form input,textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--main-bg-color);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+.add-form input:focus,
+.add-form textarea:focus{
+    outline: none;
+}
+
+.add-form button[type="submit"]{
+    font-size: 2.5rem;
+} 
+.add-form button[type="submit"]:hover,
+.add-form input[type="submit"]:hover {
+    background: var(--main-bg-color);
+} 
